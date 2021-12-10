@@ -1,0 +1,20 @@
+{
+    "name": "simexis/laravel-graphql-filter",
+    "description": "Define GraphQL schema for connection filtering using Laravel filterable models",
+    "require": {
+        "rebing/graphql-laravel": "dev-master",
+        "simexis/laravel-filterable": "^1.0.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Georgi Nachev",
+            "email": "jooorooo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Simexis\\GraphQLFilter\\": "src"
+        }
+    }
+}
