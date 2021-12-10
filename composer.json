@@ -16,5 +16,7 @@
         "psr-4": {
             "Simexis\\GraphQLFilter\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
