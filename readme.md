@@ -1,11 +1,11 @@
-# Gency\\GraphQLFilter
+# Simexis\\GraphQLFilter
 
 Define GraphQL schema for connection filtering using Laravel filterable models.
 
 # Installation
 
 ```
-composer require gency/laravel-graphql-filter
+composer require simexis/laravel-graphql-filter
 ```
 
 # Usage
@@ -14,11 +14,11 @@ Use Filterable trait on Model
 
 ```
 namespace App;
-use Gency\Filterable\Filterable;
+use Simexis\Filterable\Filterable;
 
 class User extends Model
 {
-  use \Gency\Filterable\FilterableTrait;
+  use \Simexis\Filterable\FilterableTrait;
   
   protected $filterable = [
     'name' => Filterable::String
@@ -59,7 +59,7 @@ Create GraphQL UserFilter type. The UserFilter fields defintion will be automati
 namespace App\GraphQL\Type;
 
 use App\User;
-use Gency\GraphQLFilter\Type\FilterType;
+use Simexis\GraphQLFilter\Type\FilterType;
 
 class UserFilter extends FilterType
 {
