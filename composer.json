@@ -2,7 +2,7 @@
     "name": "simexis/laravel-graphql-filter",
     "description": "Define GraphQL schema for connection filtering using Laravel filterable models",
     "require": {
-        "rebing/graphql-laravel": "^7.2",
+        "rebing/graphql-laravel": "^7.0|^8.0|^9.0",
         "simexis/laravel-filterable": "dev-master"
     },
     "license": "MIT",
